@@ -18,12 +18,9 @@ Before you must create the correct certificate/provisioning profile and *.pem* f
 
 For send notification use : *PyAPNs* (Python library for interacting with the Apple Push Notification Service).
 
-* Download `from pypi`_. or `from github`_.
+Download https://pypi.python.org/pypi/pyapns/ or https://github.com/djacobs/PyAPNs
 
-.. _from pypi: https://pypi.python.org/pypi/pyapns/
-.. _from github: https://github.com/djacobs/PyAPNs
-
-Code Example (*sendNotification.py*): ::
+Code Example (*sendNotification.py*):
 
 	import time
 	from apns import APNs, Frame, Payload
